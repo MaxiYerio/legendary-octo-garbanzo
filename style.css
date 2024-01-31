@@ -9,7 +9,6 @@ body {
     background-color: #f0f0f0;
 }
 
-
 .container {
     position: relative;
     width: 100%;
@@ -20,7 +19,6 @@ body {
     justify-content: center;
   }
   
-/* Añadimos estilos más románticos al botón */
 .btn {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
@@ -35,7 +33,6 @@ body {
     transition: transform 0.3s ease-in-out;
 }
 
-/* Estilos específicos para el botón "No" */
 #noBtn {
     position: absolute;
     left: 50%;
@@ -43,12 +40,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
-/* Estilo al pasar el cursor sobre el botón "No" */
 #noBtn:hover {
     transform: scale(1.05);
 }
 
-/* Estilos para el texto "Me perdonas" */
 h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
@@ -57,14 +52,11 @@ h4 {
     margin-bottom: 30px;
     text-align: center;
 }
-  
 
 .button-container {
     margin-top: 20px;
     position: relative;
 }
-
-
 
 .btn:hover {
     transform: translateY(-5px);
